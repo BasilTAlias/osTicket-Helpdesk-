@@ -13,11 +13,11 @@ A fully functional helpdesk ticketing system deployed on AWS EC2 using the LAMP 
 
 | User Support Portal | Successful Installation |
 |---------------------|------------------------|
-| ![Portal](screenshots/Platform.png) | ![Install](screenshots/osticket.png) |
+| ![Portal](Screenshots/Platform.png) | ![Install](Screenshots/osticket.png) |
 
 | Agent Ticket Queue | Admin Dashboard |
 |--------------------|----------------|
-| ![Agent Panel](screenshots/Agent_Panel.png) | ![Admin Panel](screenshots/Admin_Panel.png) |
+| ![Agent Panel](Screenshots/Agent_Panel.png) | ![Admin Panel](Screenshots/Admin_Panel.png) |
 
 ---
 
