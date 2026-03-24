@@ -11,13 +11,13 @@ A fully functional helpdesk ticketing system deployed on AWS EC2 using the LAMP 
 
 ## 📸 Screenshots
 
-| User Portal | Admin Panel |
-|-------------|-------------|
-| ![Portal](screenshots/portal.png) | ![Admin](screenshots/admin-panel.png) |
+| User Support Portal | Successful Installation |
+|---------------------|------------------------|
+| ![Portal](screenshots/Platform.png) | ![Install](screenshots/osticket.png) |
 
-| Ticket View | SLA Config |
-|-------------|------------|
-| ![Tickets](screenshots/ticket-lifecycle.png) | ![SLA](screenshots/sla-config.png) |
+| Agent Ticket Queue | Admin Dashboard |
+|--------------------|----------------|
+| ![Agent Panel](screenshots/Agent_Panel.png) | ![Admin Panel](screenshots/Admin_Panel.png) |
 
 ---
 
@@ -68,7 +68,7 @@ A fully functional helpdesk ticketing system deployed on AWS EC2 using the LAMP 
 - **Canned Responses:** Pre-written replies for common ticket types
 
 ### Ticket Lifecycle Simulation
-- Submitted tickets as an end user via the web portal
+- Submitted tickets as an end user via the Support Center portal
 - Triaged, assigned, prioritized, and resolved tickets as an agent
 - Practiced internal notes, ticket transfers, and escalations
 - Simulated overdue tickets and SLA breach scenarios
@@ -109,12 +109,12 @@ osticket-aws-lab/
 ├── README.md
 ├── SETUP.md
 ├── screenshots/
-│   ├── portal.png
-│   ├── admin-panel.png
-│   ├── sla-config.png
-│   └── ticket-lifecycle.png
+│   ├── Platform.png        ← User-facing support portal
+│   ├── osticket.png        ← Successful installation page
+│   ├── Agent_Panel.png     ← Agent ticket queue
+│   └── Admin_Panel.png     ← Admin dashboard & system logs
 └── config/
-    └── osticket.conf
+    └── osticket.conf       ← Apache virtual host config
 ```
 
 ---
