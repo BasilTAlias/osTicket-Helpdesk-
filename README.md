@@ -1,4 +1,3 @@
-# osTicket-Helpdesk
 # osTicket Helpdesk Lab — Deployed on AWS EC2
 
 ![osTicket](https://img.shields.io/badge/osTicket-v1.18.1-blue)
